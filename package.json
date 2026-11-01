@@ -6,9 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test": "node --experimental-strip-types --test tests/**/*.test.*"
   },
   "dependencies": {
+    "@line/liff": "^2.31.2",
+    "lucide-react": "^1.66.0",
     "next": "16.2.6",
     "react": "19.2.4",
     "react-dom": "19.2.4"
